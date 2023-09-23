@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+
+} /* Classe geral*/
+
+header {
+    background-color: green;
+    padding: 20px;
+    margin: 0;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.4);
+
+} /* Cabeçalho */
+
+header h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;  
+}
+
+header #a1, #a2, #a3 {
+    position: absolute;
+    top: 20px;
+   
+}
+
+#logo-cabeçalho {
+    position: absolute;
+    width: 40px;
+    margin-bottom: -10px;
+    margin-top: -30px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#a1 { 
+    right: 30px; 
+}
+#a2 {
+    right: 115px;
+}
+#a3 {
+    right: 200px;
+}
+
+/*Prof*/
+
+.linha-fotos { 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin-bottom: 20px; 
+    padding-bottom: 20px; 
+    border-bottom: 1px rgba(0, 0, 0, 0.1) 
+    solid; 
+    text-align: center;
+} 
+.foto { 
+    border: 2px lightgray solid; 
+    padding: 8px; 
+} 
+.foto img { 
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    margin: 20px;
+    width: 280px; 
+    height: 180px; 
+    object-fit: cover; 
+    transition: all
+    1s ease-in-out; 
+} 
+.foto img:hover { 
+    transform: scale(1.5) rotate(5deg); 
+    } 
+    
+
+
+
+/*Footer*/
+
+footer {
+    background-color: green; /* Cor de fundo escura */
+    font-family: Arial, Helvetica, sans-serif;
+    top: 800px;
+    color: white; /* Texto branco */
+    text-align: center;
+    padding: 60px 0; /* Espaçamento interno */
+    position: absolute; /* Posição absoluta */
+    bottom: 0; /* Alinhar na parte inferior da página */
+    width: 100%; /* Largura completa */
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  }
+
+  footer img {
+    width: 60px;
+    margin-right: 1200px;
+    margin-top: -70px;
+
+
+  }
+
+  /*Section*/
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }

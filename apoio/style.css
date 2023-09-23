@@ -1,0 +1,131 @@
+ h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.titulo-centralizado {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo-principal{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    transition: all .5s ease-in-out;
+}
+
+.titulo-principal:hover{
+  transform: translateX(50px) scale(1.2);
+}
+
+
+.conteudo-principal{
+  background-color: #28bb28;
+  padding: 30px;
+}
+
+p{
+  text-align: justify;
+}
+
+.seletor {
+    /*
+          Escolha a medida para aplicar o espaçamento:
+          - margin
+          - padding
+          - border
+          No exemplo escolhemos a margin, mas o comando
+          para as demais é o mesmo.
+      */
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+
+  .seletorUnico {
+     
+    padding: 10px;
+    background-color: cyan;
+  }
+  
+  .seletorDuplo {
+    
+    padding: 20px 10px;
+    background-color: cyan;
+  }
+  
+  .seletorQuadruplo {
+    
+    padding: 50px 100px 150px 200px;
+    background-color: cyan;
+  } 
+
+  #banner{
+      height: 550px;
+      width: 100%;
+      object-fit: cover;
+      object-position: 0% 65%;
+  }
+
+
+#missao{
+  background-color: #90e690;
+  border-radius: 5px;
+  box-shadow: 1px 1px 15px #003300;
+  font-size: 20px;
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center;
+  width: 50%;
+
+}
+
+strong{
+  color:#003300;
+}
+
+.servicos{
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 10%;
+}
+
+.item{
+  font-size: 20px;
+  font-style: italic;
+}
+
+.imagem-servicos{
+  width: 50%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 0% 10%;
+
+}
+
+.cabecalho{
+  background-color: #26522d;
+  padding: 30px;
+  height: 140px;
+}
+
+.container{
+  margin: 0 auto;
+  width: 900px;
+}
